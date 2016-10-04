@@ -1,0 +1,15 @@
+<web-app>
+    <servlet>
+        <servlet-name>VideoServlet</servlet-name>
+        <servlet-class>video.servlets.VideoServlet</servlet-class>
+        <!--<init-param>-->
+            <!--<param-name>basePath</param-name>-->
+            <!--<param-value>C:\</param-value>-->
+        <!--</init-param>-->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VideoServlet</servlet-name>
+        <url-pattern>/files/*</url-pattern>
+    </servlet-mapping>
+</web-app>
